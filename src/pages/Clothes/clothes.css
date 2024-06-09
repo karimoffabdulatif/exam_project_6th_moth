@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 20px;
+}
+
+
+
+.loading {
+  font-size: 80px;
+  margin-top: 200px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+.clothes_img{
+  transition: all 1s ease;
+  padding-top: 20px;
+}
+.clothes_img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+
