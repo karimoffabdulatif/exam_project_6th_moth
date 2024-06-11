@@ -14,13 +14,13 @@ const Todos = () => {
         display: "flex",
         flexWrap: "wrap",
         gap: "40px",
-        marginLeft: "250px",
-        marginTop: "200px",
+         marginLeft: "70px",
+        marginTop: "150px",
       }}
     >
       <Card
         style={{
-          maxWidth: "350px",
+          maxWidth: "250px",
           width: "100%",
           boxShadow: "1px 1px 5px 1px #0288d1" 
         }}
@@ -48,7 +48,7 @@ const Todos = () => {
       </Card>
       <Card
         style={{
-          maxWidth: "350px",
+          maxWidth: "250px",
           width: "100%",
           boxShadow: "1px 1px 5px 1px #0288d1" 
 
