@@ -81,6 +81,8 @@ export default function AddModal({ setTasks }) {
             >
               <MenuItem value="open">Open</MenuItem>
               <MenuItem value="pending">Pending</MenuItem>
+              <MenuItem value="inprogres">Inprogres</MenuItem>
+              <MenuItem value="complete">Complete</MenuItem>
             </Select>
           </FormControl>
           <Button
