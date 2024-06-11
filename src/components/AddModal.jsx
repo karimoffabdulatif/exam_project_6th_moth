@@ -72,7 +72,7 @@ export default function AddModal({ setTasks }) {
             sx={{ marginTop: "10px", marginBottom: "20px" }}
           />
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">status</InputLabel>
+            <InputLabel id="demo-simple-select-label">Title</InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
