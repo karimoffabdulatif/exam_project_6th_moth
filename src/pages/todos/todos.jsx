@@ -75,6 +75,66 @@ const Todos = () => {
           ))}
         <AddModal setTasks={setTasks} />
       </Card>
+            <Card
+        style={{
+          maxWidth: "250px",
+          width: "100%",
+          boxShadow: "1px 1px 5px 1px #0288d1" 
+
+        }}
+      >
+        <CardTitle
+          style={{
+            padding: "10px",
+            fontWeight: "bold",
+            textAlign: "center",
+          }}
+        >
+          Inprogres
+        </CardTitle>
+        
+        {tasks
+          .filter((item) => item.status === "inprogres")
+          .map((task) => (
+            <TaskItem
+              key={task.id}
+              task={task}
+              tasks={tasks}
+              setTasks={setTasks}
+            />
+          ))}
+        <AddModal setTasks={setTasks} />
+      </Card>
+      <Card
+        style={{
+          maxWidth: "250px",
+          width: "100%",
+          boxShadow: "1px 1px 5px 1px #0288d1" 
+
+        }}
+      >
+        <CardTitle
+          style={{
+            padding: "10px",
+            fontWeight: "bold",
+            textAlign: "center",
+          }}
+        >
+          Complete
+        </CardTitle>
+        
+        {tasks
+          .filter((item) => item.status === "comlete")
+          .map((task) => (
+            <TaskItem
+              key={task.id}
+              task={task}
+              tasks={tasks}
+              setTasks={setTasks}
+            />
+          ))}
+        <AddModal setTasks={setTasks} />
+      </Card>
     </div>
     
   );
