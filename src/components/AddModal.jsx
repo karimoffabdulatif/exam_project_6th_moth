@@ -49,7 +49,7 @@ export default function AddModal({ setTasks }) {
         variant="contained"
         sx={{ width: "100%", marginTop: "20px", marginBottom: "20px", backgroundColor:"#0288d1"}}
       >
-        Add Task
+        Add
       </Button>
       <Modal
         open={open}
@@ -61,7 +61,7 @@ export default function AddModal({ setTasks }) {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Add Task
+            Add
           </Typography>
           <TextField
             id="outlined-basic"
